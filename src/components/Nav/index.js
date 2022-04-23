@@ -24,9 +24,11 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
+          <span onClick={() => {
+            document.title = capitalizeFirstLetter('about');
+            setContactSelected(false);
+            window.scrollTo({top: document.querySelector('#about').offsetTop, behavior: 'smooth' });
+            }}>About Me</span>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
