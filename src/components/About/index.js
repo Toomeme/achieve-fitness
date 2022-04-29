@@ -27,7 +27,7 @@ function About() {
         </p>
         <p data-aos="fade-up" className='text-left'>
         Your body is unique.  We customize each workout for your body and devise programs that are best 
-        suited to your personal goals.  Whether it’s weight loss, strength training and conditioning, toning, 
+        suited to your personal goals.  Whether it's weight loss, strength training and conditioning, toning, 
         flexibility, or overall health you seek, we continually 
         monitor and track your progress so that you get the results you desire.
         </p>
