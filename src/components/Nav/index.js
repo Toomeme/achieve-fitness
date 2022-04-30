@@ -22,13 +22,13 @@ function Nav(props) {
         </a>
       </h2>
       <nav>
-        <ul className="flex-row">
+        <ul className="flex-row" style={{ listStyleType: 'none' }}>
           <li className="mx-2">
           <span onClick={() => {
             document.title = capitalizeFirstLetter('about');
             setContactSelected(false);
             window.scrollTo({top: document.querySelector('#about').offsetTop, behavior: 'smooth' });
-            }}>About Me</span>
+            }}>About</span>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>

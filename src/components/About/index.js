@@ -1,6 +1,6 @@
 import React from 'react';
-import cardImage from '../../assets/small/food/0.jpg';
-import rouletteImage from '../../assets/small/food/1.jpg';
+import cardImage from '../../assets/small/commercial/0.jpg';
+import rouletteImage from '../../assets/small/commercial/1.jpg';
 function About() {
   return (
     <section className="my-5 flex-row">
